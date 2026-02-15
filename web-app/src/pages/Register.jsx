@@ -7,8 +7,6 @@ const Register = () => {
     name: '',
     email: '',
     password: '',
-    idNumber: '',
-    phoneNumber: '',
   });
   const [error, setError] = useState('');
   const navigate = useNavigate();
@@ -21,7 +19,6 @@ const Register = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Mengirim data ke backend Node.js
       const res = await axios.post(
         'https://diy-karang-taruna.vercel.app/api/auth/register',
         {
@@ -44,8 +41,8 @@ const Register = () => {
     <div className='flex h-screen w-full font-sans bg-white'>
       <div className='relative hidden w-1/2 lg:block bg-[#4A5565]'>
         <img
-          src='/Image_background.png'
-          alt='Carpentry Background'
+          src='/Image_Background.png'
+          alt='Background'
           className='h-full w-full object-cover opacity-10'
         />
         <div className='absolute inset-0 flex flex-col justify-center items-center text-white p-12 text-center'>
@@ -106,36 +103,6 @@ const Register = () => {
                 value={email}
                 onChange={onChange}
                 placeholder='your@email.com'
-                className='w-full p-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#8B5E3C] focus:outline-none transition'
-                required
-              />
-            </div>
-
-            <div>
-              <label className='block text-sm font-semibold text-gray-700 mb-1'>
-                ID Number
-              </label>
-              <input
-                type='text'
-                name='idNumber'
-                value={idNumber}
-                onChange={onChange}
-                placeholder='Enter your ID number'
-                className='w-full p-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#8B5E3C] focus:outline-none transition'
-                required
-              />
-            </div>
-
-            <div>
-              <label className='block text-sm font-semibold text-gray-700 mb-1'>
-                Phone Number
-              </label>
-              <input
-                type='text'
-                name='phoneNumber'
-                value={phoneNumber}
-                onChange={onChange}
-                placeholder='+62 xxx xxxx xxxx'
                 className='w-full p-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#8B5E3C] focus:outline-none transition'
                 required
               />
