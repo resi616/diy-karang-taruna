@@ -11,7 +11,7 @@ const Register = () => {
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
-  const { name, email, password, idNumber, phoneNumber } = formData;
+  const { name, email, password } = formData;
 
   const onChange = (e) =>
     setFormData({ ...formData, [e.target.name]: e.target.value });
