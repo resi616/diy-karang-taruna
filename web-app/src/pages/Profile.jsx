@@ -100,7 +100,7 @@ const Profile = () => {
               <div className='bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex items-center gap-6'>
                 <div className='w-16 h-16 rounded-2xl flex items-center justify-center bg-[#8B5E3C]/10'>
                   <img
-                    src='/tutorial_Icon.png'
+                    src='/tutorialscompleted_Icon.png'
                     className='w-8 h-8 object-contain'
                     alt='Completed'
                   />
