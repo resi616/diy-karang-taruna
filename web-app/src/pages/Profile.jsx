@@ -72,7 +72,7 @@ const Profile = () => {
             <div className='bg-white p-5 rounded-2xl shadow-sm flex items-center gap-4 w-64 border border-gray-100 cursor-pointer hover:bg-gray-50'>
               <div className='w-12 h-12 rounded-full flex items-center justify-center bg-[#8B5E3C]/10'>
                 <img
-                  src='/src/setting_Icon.png'
+                  src='/setting_Icon.png'
                   className='w-6 h-6 object-contain'
                   alt='Settings'
                 />
@@ -82,7 +82,7 @@ const Profile = () => {
             <div className='bg-white p-5 rounded-2xl shadow-sm flex items-center gap-4 w-64 border border-gray-100 cursor-pointer hover:bg-gray-50'>
               <div className='w-12 h-12 rounded-full flex items-center justify-center bg-[#8B5E3C]/10'>
                 <img
-                  src='/src/notifIcon.png'
+                  src='/notifIcon.png'
                   className='w-6 h-6 object-contain'
                   alt='Settings'
                 />
@@ -100,7 +100,7 @@ const Profile = () => {
               <div className='bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex items-center gap-6'>
                 <div className='w-16 h-16 rounded-2xl flex items-center justify-center bg-[#8B5E3C]/10'>
                   <img
-                    src='/src/tutorialscompleted_icon.png'
+                    src='/tutorialscompleted_icon.png'
                     className='w-8 h-8 object-contain'
                     alt='Completed'
                   />
@@ -118,7 +118,7 @@ const Profile = () => {
               <div className='bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex items-center gap-6'>
                 <div className='w-16 h-16 rounded-2xl flex items-center justify-center bg-[#8B5E3C]/10'>
                   <img
-                    src='/src/hours_Icon.png'
+                    src='/hours_Icon.png'
                     className='w-8 h-8 object-contain'
                     alt='Hours'
                   />
@@ -133,7 +133,7 @@ const Profile = () => {
               <div className='bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex items-center gap-6'>
                 <div className='w-16 h-16 rounded-2xl flex items-center justify-center bg-[#8B5E3C]/10'>
                   <img
-                    src='/src/certificates_icon.png'
+                    src='/certificates_icon.png'
                     className='w-8 h-8 object-contain'
                     alt='Certificates'
                   />

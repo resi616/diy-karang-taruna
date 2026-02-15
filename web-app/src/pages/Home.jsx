@@ -69,7 +69,7 @@ const Home = () => {
                 className='bg-white p-5 rounded-[2rem] shadow-sm flex gap-6 border border-gray-100 cursor-pointer active:scale-95 transition-transform'
               >
                 <img
-                  src={cat.image || '/src/background.png'}
+                  src={cat.image || '/background.png'}
                   className='w-44 h-44 object-cover rounded-3xl'
                   alt={cat.name}
                 />
@@ -83,7 +83,7 @@ const Home = () => {
 
                   <button className='flex items-center gap-2 text-[#8B5E3C] font-extrabold'>
                     <img
-                      src='/src/hammer_icon.png'
+                      src='/hammer_icon.png'
                       alt='Hammer'
                       className='w-6 h-6 object-contain'
                     />

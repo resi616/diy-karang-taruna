@@ -44,12 +44,12 @@ const Register = () => {
     <div className='flex h-screen w-full font-sans bg-white'>
       <div className='relative hidden w-1/2 lg:block bg-[#4A5565]'>
         <img
-          src='/src/Image_background.png'
+          src='/Image_background.png'
           alt='Carpentry Background'
           className='h-full w-full object-cover opacity-10'
         />
         <div className='absolute inset-0 flex flex-col justify-center items-center text-white p-12 text-center'>
-          <img src='/src/logo.png' alt='DIY Logo' className='w-24 mb-8' />
+          <img src='/logo.png' alt='DIY Logo' className='w-24 mb-8' />
           <h1 className='text-5xl font-bold mb-4'>Join Our Community</h1>
           <p className='text-xl max-w-md'>
             Become a member of Karang Taruna and start your carpentry journey
