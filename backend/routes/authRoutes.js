@@ -14,7 +14,13 @@ router.post('/register', async (req, res) => {
     let user = await User.findOne({ email });
     if (user) return res.status(400).json({ msg: 'User sudah terdaftar' });
 
-    user = new User({ name, email, password });
+    user = new User({
+      name,
+      email,
+      password,
+      id_number,
+      phone_number,
+    });
 
     const salt = await bcrypt.genSalt(10);
     user.password = await bcrypt.hash(password, salt);
