@@ -6,20 +6,15 @@ const Sidebar = () => {
   const location = useLocation();
 
   const menuItems = [
-    { name: 'Home', path: '/home', icon: '/src/home_Icon.png' },
-
-    { name: 'Profile', path: '/profile', icon: '/src/profile_Icon.png' },
+    { name: 'Home', path: '/home', icon: '/home_Icon.png' },
+    { name: 'Profile', path: '/profile', icon: '/profile_Icon.png' },
   ];
 
   return (
     <div className='w-64 bg-[#2D3748] h-screen flex flex-col p-6 text-white fixed border-r border-gray-700'>
       {/* Logo Section */}
       <div className='flex items-center gap-3 mb-10'>
-        <img
-          src='/src/logo.png'
-          alt='Logo'
-          className='w-10 h-10 object-contain'
-        />
+        <img src='/logo.png' alt='Logo' className='w-10 h-10 object-contain' />
         <div>
           <h1 className='font-bold text-lg leading-tight'>DIY Carpentry</h1>
           <p className='text-xs text-gray-400'>Karang Taruna</p>
