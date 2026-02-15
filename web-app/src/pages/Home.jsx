@@ -83,7 +83,7 @@ const Home = () => {
 
                   <button className='flex items-center gap-2 text-[#8B5E3C] font-extrabold'>
                     <img
-                      src='/hammer_icon.png'
+                      src='/hammer_Icon.png'
                       alt='Hammer'
                       className='w-6 h-6 object-contain'
                     />
