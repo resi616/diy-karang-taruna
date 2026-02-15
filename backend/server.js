@@ -30,7 +30,9 @@ app.use(
 
 // --- KONEKSI MONGODB ---
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URI, {
+    connectTimeoutMS: 100000,
+  })
   .then(() => console.log('✅ Berhasil terhubung ke MongoDB'))
   .catch((err) => console.error('❌ Gagal koneksi ke MongoDB:', err));
 
