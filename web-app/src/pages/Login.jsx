@@ -32,13 +32,13 @@ const Login = () => {
     <div className='flex h-screen w-full font-sans'>
       <div className='relative hidden w-1/2 lg:block bg-[#4A5565]'>
         <img
-          src='/src/assets/Image_background.png'
+          src='/src/Image_background.png'
           alt='Background'
           className='h-full w-full object-cover opacity-10'
         />
 
         <div className='absolute inset-0 flex flex-col justify-center items-center text-white p-12 text-center'>
-          <img src='/src/assets/logo.png' alt='Logo' className='w-20 mb-6' />
+          <img src='/src/logo.png' alt='Logo' className='w-20 mb-6' />
           <h1 className='text-5xl font-bold mb-4'>DIY Carpentry</h1>
           <p className='text-xl mb-8'>
             Learn carpentry skills from the Karang Taruna community

@@ -73,7 +73,7 @@ const CategoryTutorials = () => {
                   <div className='flex items-center gap-4 text-gray-400 font-medium'>
                     <div className='flex items-center gap-2'>
                       <img
-                        src='/src/assets/hours_Icon.png'
+                        src='/src/hours_Icon.png'
                         className='w-4 h-4 opacity-50'
                         alt='time'
                       />

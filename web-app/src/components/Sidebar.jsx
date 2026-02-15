@@ -6,9 +6,9 @@ const Sidebar = () => {
   const location = useLocation();
 
   const menuItems = [
-    { name: 'Home', path: '/home', icon: '/src/assets/home_Icon.png' },
+    { name: 'Home', path: '/home', icon: '/src/home_Icon.png' },
 
-    { name: 'Profile', path: '/profile', icon: '/src/assets/profile_Icon.png' },
+    { name: 'Profile', path: '/profile', icon: '/src/profile_Icon.png' },
   ];
 
   return (
@@ -16,7 +16,7 @@ const Sidebar = () => {
       {/* Logo Section */}
       <div className='flex items-center gap-3 mb-10'>
         <img
-          src='/src/assets/logo.png'
+          src='/src/logo.png'
           alt='Logo'
           className='w-10 h-10 object-contain'
         />
