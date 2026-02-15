@@ -22,11 +22,14 @@ const Register = () => {
     e.preventDefault();
     try {
       // Mengirim data ke backend Node.js
-      const res = await axios.post('/api/auth/register', {
-        name,
-        email,
-        password,
-      });
+      const res = await axios.post(
+        'https://diy-karang-taruna.vercel.app/api/auth/register',
+        {
+          name,
+          email,
+          password,
+        },
+      );
 
       localStorage.setItem('token', res.data.token);
       navigate('/home');

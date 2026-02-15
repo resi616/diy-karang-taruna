@@ -21,7 +21,7 @@ const TutorialDetail = () => {
     try {
       const token = localStorage.getItem('token');
       await axios.put(
-        `/api/tutorials/complete/${id}`,
+        `https://diy-karang-taruna.vercel.app/api/tutorials/complete/${id}`,
         {},
         { headers: { 'x-auth-token': token } },
       );
@@ -41,10 +41,16 @@ const TutorialDetail = () => {
         const token = localStorage.getItem('token');
         const headers = { headers: { 'x-auth-token': token } };
 
-        const resTut = await axios.get(`/api/tutorials/${id}`, headers);
+        const resTut = await axios.get(
+          `https://diy-karang-taruna.vercel.app/api/tutorials/${id}`,
+          headers,
+        );
         setTutorial(resTut.data);
 
-        const resUser = await axios.get('/api/users/profile', headers);
+        const resUser = await axios.get(
+          'https://diy-karang-taruna.vercel.app/api/users/profile',
+          headers,
+        );
 
         const alreadyDone = resUser.data.completed_tutorials.some(
           (doneId) => String(doneId) === String(id),

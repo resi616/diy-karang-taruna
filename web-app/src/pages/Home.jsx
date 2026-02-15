@@ -11,9 +11,12 @@ const Home = () => {
     const fetchCategories = async () => {
       try {
         const token = localStorage.getItem('token');
-        const res = await axios.get('/api/tutorials/categories', {
-          headers: { 'x-auth-token': token },
-        });
+        const res = await axios.get(
+          'https://diy-karang-taruna.vercel.app/api/tutorials/categories',
+          {
+            headers: { 'x-auth-token': token },
+          },
+        );
 
         setCategories(res.data);
       } catch (err) {

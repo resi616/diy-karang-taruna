@@ -11,9 +11,12 @@ const Profile = () => {
     const fetchProfile = async () => {
       try {
         const token = localStorage.getItem('token');
-        const res = await axios.get('/api/users/profile', {
-          headers: { 'x-auth-token': token },
-        });
+        const res = await axios.get(
+          'https://diy-karang-taruna.vercel.app/api/users/profile',
+          {
+            headers: { 'x-auth-token': token },
+          },
+        );
         setUser(res.data);
       } catch (err) {
         console.error('Gagal memuat profil', err);

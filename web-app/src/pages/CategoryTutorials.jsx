@@ -15,7 +15,7 @@ const CategoryTutorials = () => {
         const token = localStorage.getItem('token');
         const headers = { headers: { 'x-auth-token': token } };
         const res = await axios.get(
-          `/api/tutorials/category/${categoryId}`,
+          `https://diy-karang-taruna.vercel.app/api/tutorials/category/${categoryId}`,
           headers,
         );
         setTutorials(res.data);

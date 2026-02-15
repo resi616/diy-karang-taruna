@@ -15,7 +15,10 @@ const Login = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('/api/auth/login', formData);
+      const res = await axios.post(
+        'https://diy-karang-taruna.vercel.app/api/auth/login',
+        formData,
+      );
       localStorage.setItem('token', res.data.token);
       navigate('/home');
     } catch (err) {
