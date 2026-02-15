@@ -32,7 +32,7 @@ const Login = () => {
     <div className='flex h-screen w-full font-sans'>
       <div className='relative hidden w-1/2 lg:block bg-[#4A5565]'>
         <img
-          src='/image_Background.png'
+          src='/Image_Background.png'
           alt='Background'
           className='h-full w-full object-cover opacity-10'
         />
