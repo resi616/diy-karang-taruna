@@ -105,7 +105,7 @@ export default function HomeScreen({ navigation, route }) {
 
                 <View style={styles.startRow}>
                   <Image
-                    source={require('../assets/hammer_brown_Icon.png')}
+                    source={require('../assets/hammer_white_Icon.png')}
                     style={styles.hammerSmall}
                     resizeMode='contain'
                   />
