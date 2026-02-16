@@ -80,7 +80,7 @@ export default function TutorialListScreen({ navigation, route }) {
 
                 <View style={styles.metaRow}>
                   <Image
-                    source={require('../assets/clock_brown_Icon.png')}
+                    source={require('../assets/hours_Icon.png')}
                     style={styles.metaIcon}
                   />
                   <Text style={styles.metaText}>{item.duration} min</Text>

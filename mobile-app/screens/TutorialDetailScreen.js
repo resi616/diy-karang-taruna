@@ -102,7 +102,7 @@ export default function TutorialDetailScreen({ navigation, route }) {
           <Text style={styles.title}>{tutorial?.title}</Text>
           <View style={styles.metaRow}>
             <Image
-              source={require('../assets/clock_brown_Icon.png')}
+              source={require('../assets/hours_Icon.png')}
               style={styles.metaIcon}
             />
             <Text style={styles.metaText}>{tutorial?.duration} min</Text>

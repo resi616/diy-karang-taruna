@@ -70,7 +70,7 @@ export default function ProfileScreen({ navigation, route }) {
           </View>
           <View style={styles.menuItem}>
             <Image
-              source={require('../assets/notif_Icon.png')}
+              source={require('../assets/notifIcon.png')}
               style={styles.menuIcon}
             />
             <Text style={styles.menuLabel}>Notifications</Text>
@@ -80,7 +80,7 @@ export default function ProfileScreen({ navigation, route }) {
         <Text style={styles.sectionTitle}>My Progress</Text>
         <View style={styles.card}>
           <Image
-            source={require('../assets/book_brown_Icon.png')}
+            source={require('../assets/tutorialscompleted_Icon.png')}
             style={styles.cardIcon}
           />
           <View>
@@ -92,7 +92,7 @@ export default function ProfileScreen({ navigation, route }) {
         </View>
         <View style={styles.card}>
           <Image
-            source={require('../assets/clock_brown_Icon.png')}
+            source={require('../assets/hours_Icon.png')}
             style={styles.cardIcon}
           />
           <View>
@@ -102,7 +102,7 @@ export default function ProfileScreen({ navigation, route }) {
         </View>
         <View style={styles.card}>
           <Image
-            source={require('../assets/medal_brown_Icon.png')}
+            source={require('../assets/certificates_icon.png')}
             style={styles.cardIcon}
           />
           <View>
