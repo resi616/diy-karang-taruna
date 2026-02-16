@@ -39,7 +39,7 @@ export default function LoginScreen({ navigation }) {
       <View style={styles.content}>
         <View style={styles.logoContainer}>
           <Image
-            source={require('../assets/hammer_Icon.png')}
+            source={require('../assets/hammer_brown_Icon.png')}
             style={styles.logo}
             resizeMode='contain'
           />
